@@ -13,3 +13,6 @@ find "$1" \( -name "*.c" -o -name "*README*" \) -exec rm -f "{}" \;
 find "$1" \( -name "*example*" -o -name "*.sample" \) -exec rm -f "{}" \;
 find "$1" \( -name "*.png" -o -name "*.gif" \) -exec rm -f "{}" \;
 find "$1"    -name "*.sh" -exec rm -f "{}" \;
+
+#fix for the Vim plugins help tags generation
+echo " " > /usr/share/vim/vim74/doc/help.txt    
