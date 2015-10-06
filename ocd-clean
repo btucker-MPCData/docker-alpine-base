@@ -16,4 +16,4 @@ find "$1" \( -name "*.sh" -o -name "Makefile" \) -exec rm -f "{}" \;
 
 #fix for the Vim plugins help tags generation
 mkdir -p /usr/share/vim/vim74/doc/
-echo " " > /usr/share/vim/vim74/doc/help.txt    
+touch /usr/share/vim/vim74/doc/help.txt    
