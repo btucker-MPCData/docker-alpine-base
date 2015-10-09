@@ -9,5 +9,5 @@ find "$1" \( -name "*.h" -o -name "*.cpp" \) -exec rm -f "{}" \;
 find "$1" \( -name "*.c" -o -name "*README*" \) -exec rm -f "{}" \;
 find "$1" \( -name "*example*" -o -name "*.sample" \) -exec rm -f "{}" \;
 find "$1" \( -name "*.png" -o -name "*.gif" \) -exec rm -f "{}" \;
-find "$1" \( -name "*install*" -o -name "Makefile" \) -exec rm -f "{}" \;
+find "$1" \( -name "*tutorial*" -o -name "Makefile" \) -exec rm -f "{}" \;
 find "$1"  -name "*.ico" -exec rm -f "{}" \;
