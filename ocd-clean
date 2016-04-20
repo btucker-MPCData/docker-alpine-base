@@ -1,4 +1,7 @@
 #!/bin/sh
+
+# Footgun-O-Matic 9000
+
 rm -rf /var/cache/* /tmp/*
 mkdir -p /var/cache/apk/
 find "$1" \( -name ".gitignore" -o -name ".git" \) -prune -exec rm -rf "{}" \;
